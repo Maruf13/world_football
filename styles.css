@@ -2,7 +2,52 @@ body{
     margin: 0;
     padding:0;
 }
-
+/* -----------heading css-------------- */
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading_card{
+    display: flex;
+    width: 1321px;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+    height: 646px;
+    margin: 60px;
+}
+.heading_card h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+.left{
+    padding: 65px;
+}
+.left a{
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.live{
+    display: flex;
+}
+.right img{
+    width: 581px;
+    height: 613px;
+    padding: 24px 30px;
+}
 footer{
     display: flex;
     justify-content: center;
