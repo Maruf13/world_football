@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 444px;
+    background-color: #161616;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+.goal{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer_menu{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+footer p{
+    padding: 25px;
+}
