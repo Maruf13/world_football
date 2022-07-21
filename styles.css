@@ -62,6 +62,96 @@ body{
     height: 613px;
     padding: 24px 30px;
 }
+
+/* ----------Middle portion css started here----------- */
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle_part{
+    width: 1321px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.middle_left{
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.middle_left a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 213px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.middle_right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1009px;
+}
+.match{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.match:hover{
+    border: 1px solid blue;
+}
+
+.match h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.match p, .flag p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.flag{
+    display: flex;
+}
+.flag img{
+    width: 93.04px;
+    height: 56.18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.active{
+    color: white;
+    background-color: #DD0000;
+}
+.deactive{
+    color:#161616;
+    background-color: white;
+}
+/* ----------Middle portion css end here--------------- */
 footer{
     display: flex;
     justify-content: center;
